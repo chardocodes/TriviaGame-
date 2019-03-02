@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://www.muralswallpaper.com/app/uploads/capital-city-maps-plain.jpg");
+}
+.trivia {
+    
+    background-color: beige;
+    border-style: solid;
+    border-color: #777;
+    height: 450px;
+    margin:40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #777;
+}
+#question {
+    background-color: lightsalmon;
+    
+}
