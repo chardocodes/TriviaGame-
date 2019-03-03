@@ -1,19 +1,85 @@
 body {
     background-image: url("https://www.muralswallpaper.com/app/uploads/capital-city-maps-plain.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-.trivia {
+
+.container {
+    height: 400px;
+    width: 600px;
+   
+    align-content: center;
+    border:1px solid #777;
+    background-color: lightseagreen;
+
+}
+ .title {
+     padding-top: 20px;
+     text-align: center;
+     font-size: 30px;
+     text-transform: uppercase;
+     color: rgb(10, 10, 10);
+
+ }
+.question {
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    color:#777;
+    margin: 10px 0 10px 0;
+
+}
+.option {
+    width:470px;
+    display: 10px 0 10px 15px;
+    background: rgba(255, 255, 255, 0.5);
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.next-btn{
+    border:none;
+    background: rgba(255, 255, 255, 0.5);
+    width:100px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin:10px;
+
+}
+.results{
+    height:100px;
+    text-align: center;
+    font-size:75px;
+
+}
+
+
+
+
+/* .triviaContainer {
     
     background-color: beige;
     border-style: solid;
     border-color: #777;
     height: 450px;
     margin:40px;
+    margin-top:-10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: #777;
 }
-#question {
-    background-color: lightsalmon;
-    
-}
+#result {
+    background-color: lightsteelblue;
+    margin: 30px;
+    border-style: solid;
+    border-color: #777;
+    height: 260px;
+} */
+/* 
+h1 {
+    text-align: center;
+    padding: 20px; 
+} */
